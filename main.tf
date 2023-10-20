@@ -1,6 +1,6 @@
 locals{ 
  storage_name= ["north","south","east","west"]
- clusters_name= ["MontrealCollegeCluster1","MontrealCollegeCluster2","MontrealCollegeCluster3","MontrealCollegeCluster4"]
+ clusters_name= ["mcit1","mcit2","mcit3","mcit4"]
 
  }
   resource "azurerm_resource_group" "butterfly" {
